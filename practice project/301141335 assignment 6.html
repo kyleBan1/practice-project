@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+ created by seunghyeon Ban 301141335 summer 2022 
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assignment 6 css.css" />
+    <title>Assignment 6 - cat photo</title>
+</head>
+<body>
+    <h1 style="text-align:center;">cat photo gallary made by jquery</h1>
+    <div id="c-slider" class="c-slider">
+        <div id="slider" style="margin-left:-175%;">
+                    
+          <section><button class="bs button bfavorite1">Make it favorite!</button><img class="thumb1" src="cat 1.jpg" alt=""></section>
+          <section><button class="bs button bfavorite2">Make it favorite!</button><img class="thumb2" src="cat 2.jpg" alt=""></section>
+          <section><button class="button bfavorite3 bs">Make it favorite!</button><img class="thumb3" src="cat 3.jpg" alt=""></section><section>
+          <button class="button bfavorite4 bs">Make it favorite!</button><img class="thumb4" src="cat 4.jpg" alt=""></section>  
+        </div>
+        
+      </div>
+      <img class="photo-overlay1" style="margin-left:204px;width: 70%;" src="cat 1.jpg"/>
+      <img class="photo-overlay2" style="margin-left:204px;width: 70%;" src="cat 2.jpg"/>
+       <img class="photo-overlay3" style="margin-left:204px;width: 70%;" src="cat 3.jpg"/>
+       <img class="photo-overlay4" style="margin-left:240px;width: 70%;" src="cat 4.jpg"/>
+
+       <button class="button button3" id="close">X</button> 
+      <br>
+      <button id="btn-prev">&#10094;</button>
+      <button id="btn-update"> Update</button>
+      <button id="btn-next">&#10095;</button>
+
+      <h3 id="favoritet">Your Favorite cat Photos</h1>
+      <div id="fphotos">
+      <img id="f1" src="cat 1.jpg"/>
+      <img id="f2" src="cat 2.jpg"/>
+      <img id="f3" src="cat 3.jpg"/>
+      <img id="f4" src="cat 4.jpg"/>
+
+      </div>
+
+<div id="footer">
+	<p id="copyright">&copy;&nbsp;<strong>Copyright Seunghyeon Ban 301141335 summer 2022</strong></p>
+</div>      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="assignment 6 js.js" ></script>   
+    </body>
+</html>
